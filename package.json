@@ -35,5 +35,8 @@
       "last 1 safari version"
     ]
   },
-  "homepage": "https://obasekiosa.github.io/3-column-preview-card-component"
+  "homepage": "https://obasekiosa.github.io/3-column-preview-card-component",
+  "devDependencies": {
+    "gh-pages": "^3.2.3"
+  }
 }
