@@ -1,0 +1,32 @@
+// screen sizes
+$mobile: 678px;
+
+
+.App {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-radius: 10px;
+  overflow: hidden;
+  width: max-content;
+  margin: 50px auto;
+
+  @media screen and (min-width: $mobile) {
+
+    & {
+      flex-direction: row;
+    }
+    
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
