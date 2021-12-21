@@ -9,12 +9,14 @@ $mobile: 678px;
   border-radius: 10px;
   overflow: hidden;
   width: max-content;
+  max-width: 375;
   margin: 50px auto;
 
   @media screen and (min-width: $mobile) {
 
     & {
       flex-direction: row;
+      max-width: 1440px;
     }
     
   }
