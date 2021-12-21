@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap');
+
+// fonts
+$font-big-shoulders: 'Big Shoulders Display', cursive;
+$font-lexend-deca: 'Lexend Deca', sans-serif;
+
+// font weights
+$font-weight-lexand: 400;
+$font-weight-big-shoulders: 700;
+
+// font sizes
+$font-size: 15px;
+
+.attribution { font-size: 11px; text-align: center; font-family: $font-big-shoulders;}
+.attribution a { color: hsl(228, 45%, 44%); }

@@ -1,4 +1,4 @@
-import "./attribution.css"
+import "./attribution.scss"
 
 
 const AttributeCard = (props) => {
