@@ -1,40 +1,65 @@
 @import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap');
 
+// fonts
 $font-big-shoulders: 'Big Shoulders Display', cursive;
 $font-lexend-deca: 'Lexend Deca', sans-serif;
 
+// font weights
 $font-weight-lexand: 400;
 $font-weight-big-shoulders: 700;
+
+// font sizes
+$font-size: 15px;
+
+// colors
+$transparent-white: hsla(0, 0%, 100%, 0.75); // paragraphs
+$very-light-gray : hsl(0, 0%, 95%); //(background, headings, buttons)
 
 
 .PreviewCard {
     display: grid;
-    grid-template-columns: 1fr;//minmax(0, 150px);
-    grid-template-rows: repeat(4, minmax(0, auto));
+    grid-template-columns: minmax(auto, 1fr);//minmax(0, 150px);
+    grid-template-rows: repeat(4, auto);
     max-width: 200px;
-    max-height: 300px;
-    // justify-content: space-between;
-    // align-content: center;
-    align-items: flex-end;
+    justify-content: start;
+    justify-items: start;
+    align-items: flex-start;
+    padding: 24px;
+    font-size: $font-size;
+    font-family: $font-lexend-deca;
+    font-weight: $font-weight-lexand;
 
 
     img {
-        // height: 100%;
         width: 48px;
+        filter:saturate(0);
     }
 
-    h1 {
-        // height: 100%;
+    h2 {
+        text-align: start;
+        color: $very-light-gray;
+        margin-top: 24px;
+        font-family: $font-big-shoulders;
+        font-weight: $font-weight-big-shoulders;
     }
 
     p {
-        height: 100%;
-        // overflow: hidden;
-        text-overflow: ellipsis;
+        margin-top: 24px;
+        text-align: start;
+        color: $transparent-white;
+        font-size: 0.6rem;
+        line-height: 1.5;
     }
 
     button {
-        width: 40%;
-        height: 32px;
+        width: auto;
+        height: auto;
+        padding: 8px 20px;
+        border-radius: 30px;
+        background-color: $very-light-gray;
+        margin: 20px 0 8px 0;
+        font-weight: 450;
+        border: none;
+        font-size: 0.7rem;
     }
 }
