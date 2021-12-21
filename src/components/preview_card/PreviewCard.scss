@@ -32,7 +32,7 @@ $very-light-gray : hsl(0, 0%, 95%); //(background, headings, buttons)
 
     img {
         width: 48px;
-        filter:saturate(0);
+        filter: saturate(1);
     }
 
     h2 {
