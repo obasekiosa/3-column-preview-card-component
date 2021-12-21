@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap');
+
+$font-big-shoulders: 'Big Shoulders Display', cursive;
+$font-lexend-deca: 'Lexend Deca', sans-serif;
+
+$font-weight-lexand: 400;
+$font-weight-big-shoulders: 700;
+
+
+.PreviewCard {
+    display: grid;
+    grid-template-columns: 1fr;//minmax(0, 150px);
+    grid-template-rows: repeat(4, minmax(0, auto));
+    max-width: 200px;
+    max-height: 300px;
+    // justify-content: space-between;
+    // align-content: center;
+    align-items: flex-end;
+
+
+    img {
+        // height: 100%;
+        width: 48px;
+    }
+
+    h1 {
+        // height: 100%;
+    }
+
+    p {
+        height: 100%;
+        // overflow: hidden;
+        text-overflow: ellipsis;
+    }
+
+    button {
+        width: 40%;
+        height: 32px;
+    }
+}
